@@ -1,6 +1,38 @@
-body {
+html {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400,700;
+  font-weight: 400; /* Regular font-weight */
   font-style: normal;
+  background-color: hsl(212, 45%, 89%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  max-width: 90%; /* Better for responsiveness */
+  margin: 10% 30%; /* Adjusted margins for better scaling */
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px; /* Added padding for inner spacing */
+}
+
+h2 {
+  font-weight: 700; /* Bold font-weight for heading */
+  margin-bottom: 15px; /* Adjusted margin for better spacing */
+}
+
+p {
+  margin-bottom: 5%;
+  color: hsl(218, 22%, 44%); /* Optional color tweak */
+  margin-bottom: 10%;
+}
+
+.qr1 {
+  width: 100%;
+   /* Limits width for larger screens */
+  border-radius: 10px;
+}
+.content {
+  margin: auto 5%;
 }
